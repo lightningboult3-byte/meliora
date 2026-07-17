@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meliora — MEL team hub</title>
+<meta name="description" content="Meliora: an internal development hub for the MEL team — a skills path, a weekly brief, and a gateway to the global MEL field.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Bungee&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="device">
+
+  <header class="topbar">
+    <div class="titlebar">
+      <span class="brand"><b>MEL</b>IORA</span>
+      <span class="meta">MEL team hub · &ldquo;ever better&rdquo;</span>
+    </div>
+
+    <nav class="regions" aria-label="Sections">
+      <a href="#/map" data-region="map">Map</a>
+      <a href="#/news" data-region="news">The Brief</a>
+      <a href="#/skills" data-region="skills">The Path</a>
+      <a href="#/gateway" data-region="gateway">The Field</a>
+    </nav>
+  </header>
+
+  <main class="screen">
+
+    <!-- MAP (full-pager journey scene; rendered by app.js) -->
+    <section id="region-map" class="region" aria-label="Map">
+      <div id="map-body"></div>
+    </section>
+
+    <!-- THE PATH (skills) -->
+    <section id="region-skills" class="region" aria-label="The Path">
+      <div class="kicker">Bestie, where to next?</div>
+      <h1 class="title">The Path</h1>
+      <p class="deck">Your competency map, built on the 2018 AEA Evaluator Competencies plus a Data &amp; Technology domain for modern MEL. Read a row to see how a skill grows from Officer to Lead; tap any square for &ldquo;what good looks like&rdquo; and what to learn next.</p>
+      <div class="legendrow" id="skills-legend"></div>
+      <table class="matrix" id="skills-matrix"></table>
+      <div class="celldetail" id="skills-detail"></div>
+      <h2 class="sub">Badges — milestones, not currency</h2>
+      <div class="badgegrid" id="skills-badges"></div>
+      <p class="note">Badges describe what mastery <em>looks like</em> in each domain — deliberately not points or a leaderboard (those tend to crowd out real motivation). Earning and tracking them per person lives in the parked Milestones phase.</p>
+    </section>
+
+    <!-- THE BRIEF (news) -->
+    <section id="region-news" class="region" aria-label="The Brief">
+      <div class="kicker">What's the latest goss?</div>
+      <h1 class="title">The Brief</h1>
+      <div class="brief-note" id="brief-stamp">Issue</div>
+      <p class="deck">What's moving across monitoring, evaluation, data, tech, AI and careers — global-first, with India in focus. Filter by beat, then dig into sources.</p>
+      <div class="ticker"><div class="vp"><div class="tk" id="ticker-track"></div></div></div>
+      <div class="subtabs" id="news-subtabs"></div>
+      <div class="newsgrid" id="news-grid"></div>
+      <h2 class="sub">Learn next</h2>
+      <div class="eduband" id="news-edu"></div>
+    </section>
+
+    <!-- THE FIELD (gateway) -->
+    <section id="region-gateway" class="region" aria-label="The Field">
+      <div class="kicker">I wonder what's out there.</div>
+      <h1 class="title">The Field</h1>
+      <p class="deck">The gateway to the global MEL field. Real growth is mostly experience and people, not content — so this is the door outward: the orgs setting the standard, the communities to join, the events to show up at, and where the jobs are.</p>
+      <div id="gateway-body"></div>
+    </section>
+
+    <!-- FIELD TREND SUB-PAGES (not in nav; reached from The Field) -->
+    <section id="region-fieldsub" class="region" aria-label="Field trend report">
+      <div id="fieldsub-body"></div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <span>Meliora</span>
+    <span>The Brief auto-updates weekly · the rest moves at its own pace · Milestones coming later</span>
+    <span><a href="README.md">README</a></span>
+  </footer>
+
+</div>
+
+<script src="data/content.js"></script>
+<script src="data/brief.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
