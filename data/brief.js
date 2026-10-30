@@ -1,36 +1,36 @@
 /* ============================================================
    data/brief.js — Meliora's weekly "Brief".
-   ------------------------------------------------------------
-   THIS FILE IS REGENERATED AUTOMATICALLY every Friday by CI
-   (scripts/update-brief.mjs). Loaded AFTER data/content.js, it
-   overrides window.HUB.brief = {
+   Regenerated every Friday. Loaded AFTER data/content.js; it
+   overrides window.HUB.brief.
+   ============================================================ */
+window.HUB.brief = {
   ticker: [
-    { t: "World Bank WDR 2026: generative AI puts 4.5% of jobs in developing economies at risk vs 14.2% in high-income countries", u: "https://www.developmentaid.org/news-stream/post/209410/ai-offers-lifeline-to-developing-economies-amid-weak-growth" },
-    { t: "India's Poshan Tracker: over 8.93 crore beneficiaries registered by May 2026, with live data on 7.7 crore children", u: "https://organiser.org/2026/07/09/369123/bharat/poshan-tracker-how-indias-real-time-nutrition-monitoring-platform-is-transforming-nutrition-governance/" },
-    { t: "A decade of Indian impact bonds: over USD 55 million mobilised, 4.5 million people reached; verification costs 6-12% of outcomes funding", u: "https://golab.bsg.ox.ac.uk/community/blogs/from-india-with-love-and-evidence/" },
-    { t: "UPI crossed 24,162 crore transactions in FY2025-26; Aadhaar registrations passed 144 crore by March 2026", u: "https://opengovasia.com/india-marks-11-years-of-digital-india-with-expanding-digital-public-infrastructure/" },
-    { t: "Glocal Evaluation Week 2026 drew 19,500 participants across 322 sessions on evaluation, evidence and trust in the age of AI", u: "https://glocalevalweek.org/node/64849" },
-    { t: "UNDP's Robert Opp: AI cannot replace strong institutions, even as aid budgets shrink", u: "https://www.gzeromedia.com/amp/as-development-funding-shrinks-can-ai-fill-the-gap-2677171102" },
-    { t: "Proposal: a public-rail AI tutoring system for India, where 27% of students already take private coaching", u: "https://superkalam.com/current-affairs/24-08-2026/not-delulu-an-ai-tutor-for-every-child-in-india-pg8-f6b0a37f-9591-47d8-818f-70b1a7807b05" }
+    { t: "World Bank: 824.3 million people (10.1%) lived below $3.00/day in 2024, 22.5 million fewer than the March 2026 estimate", u: "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in" },
+    { t: "J-PAL Rajasthan trial: adaptive learning software lifted maths 0.22 SD and Hindi 0.20 SD after 18 months", u: "https://www.povertyactionlab.org/evaluation/scaling-personalized-adaptive-learning-pal-math-and-language-india" },
+    { t: "India's PLFS June 2026: unemployment 5.5%, urban 6.6%, female participation 32.7%", u: "https://superkalam.com/current-affairs/16-07-2026/periodic-labour-force-survey-plfs-monthly-bulletin-june-2026-922f0909-1b85-4706-a804-d7009a134e49" },
+    { t: "India AI Impact Summit declaration adopted by 91 countries and organisations; 13 AI firms pledged to publish adoption statistics", u: "https://organiser.org/2026/04/05/347102/bharat/from-dialogue-to-deployment-strategic-outcomes-of-the-india-ai-summit/amp/" },
+    { t: "Only 63.5% of Indian schools have internet as AI becomes compulsory from Class III in 2026-27", u: "https://educationforallinindia.com/ai-in-indian-education-are-we-building-the-pyramid-upside-down/" },
+    { t: "NITI Aayog's NCMEL 2026 pushed M&E into State Institutions of Transformation and universities", u: "https://dmeo.gov.in/content/national-conference-monitoring-evaluation-and-learnings-2026-know-more" },
+    { t: "J-PAL's Long-Term Impacts Initiative: full proposals due December 2, 2026", u: "https://www.povertyactionlab.org/initiative/long-term-impacts-initiative-ltii" }
   ],
   sections: [
     { id: "monitoring", name: "Program Monitoring", color: "#1f7367", region: "global",
-      cards: [{ title: "Poshan Tracker: India's live nutrition dashboard at scale", summary: "Over 8.93 crore beneficiaries registered by May 2026 across all states and UTs. Growth monitoring covers 6.3 crore under-fives (about 94%). Uses Aadhaar checks and facial recognition at the last mile. Press-reported figures.", tag: "India", source: { label: "Organiser", href: "https://organiser.org/2026/07/09/369123/bharat/poshan-tracker-how-indias-real-time-nutrition-monitoring-platform-is-transforming-nutrition-governance/" } }] },
+      cards: [{ title: "NITI Aayog's national M&E conference targets states and universities", summary: "NCMEL 2026 ran 7-8 May at Vigyan Bhawan, Delhi, the fourth edition since 2021. Its five objectives include institutionalising evaluation in government, sub-national monitoring through State Institutions of Transformation, and university M&E capacity.", tag: "India", source: { label: "DMEO, NITI Aayog", href: "https://dmeo.gov.in/content/national-conference-monitoring-evaluation-and-learnings-2026-know-more" } }] },
     { id: "impact", name: "Impact Measurement", color: "#4c4196", region: "global",
-      cards: [{ title: "Ten years of impact bonds: five lessons from India", summary: "Outcomes-based financing in India mobilised over USD 55 million and reached 4.5 million people. Verification took 6-12% of outcomes funding. Lesson: match evaluation rigour to real constraints rather than defaulting to RCTs. Posted April 2026.", tag: "India", source: { label: "Oxford Government Outcomes Lab", href: "https://golab.bsg.ox.ac.uk/community/blogs/from-india-with-love-and-evidence/" } }] },
+      cards: [{ title: "J-PAL funds 10-20 year follow-ups of anti-poverty programmes", summary: "The Long-Term Impacts Initiative asks whether income and livelihood gains last. Its example: an India Graduation programme showed positive income and health effects after ten years. Fall 2026 letters were due Oct 14; full proposals are due Dec 2.", tag: "India", source: { label: "J-PAL", href: "https://www.povertyactionlab.org/initiative/long-term-impacts-initiative-ltii" } }] },
     { id: "statistics", name: "Statistics & Data", color: "#1a6e49", region: "global",
-      cards: [{ title: "India plans its first full household income survey", summary: "MoSPI announced a survey to build a credible database on income distribution, with a technical expert group advising. Current consumption surveys do not capture income fully. Announced June 2025; the article gives no sample size or start date.", tag: "India", source: { label: "SCC Online", href: "https://www.scconline.com/blog/post/2025/06/24/mospi-indian-household-income-survey-2026/" } }] },
+      cards: [{ title: "World Bank cuts its 2024 extreme-poverty count to 824 million", summary: "Published Sept 22, 2026: 10.1% of people live below $3.00/day (2021 PPP), 22.5 million fewer than the March estimate. A new India estimate drove most of the South Asia revision; India's figure is not given on the page.", tag: "Global", source: { label: "World Bank Data Blog", href: "https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in" } },
+        { title: "PLFS June 2026: unemployment steady at 5.5%", summary: "Urban unemployment 6.6% (7.1% a year earlier); rural 5.0%. Overall participation 54.4%; female participation 32.7%, up 0.7 points year on year. Figures are for people aged 15+, current weekly status.", tag: "India", source: { label: "Superkalam (PIB summary)", href: "https://superkalam.com/current-affairs/16-07-2026/periodic-labour-force-survey-plfs-monthly-bulletin-june-2026-922f0909-1b85-4706-a804-d7009a134e49" } }] },
     { id: "tech", name: "Tech for Development", color: "#8a5600", region: "india",
-      cards: [{ title: "India's public digital rails by the numbers", summary: "UPI handled over 24,162 crore transactions in FY2025-26. Aadhaar passed 144 crore registrations and DigiLocker 70.69 crore users by March 2026. India has signed DPI agreements with 24 nations.", tag: "India", source: { label: "OpenGov Asia", href: "https://opengovasia.com/india-marks-11-years-of-digital-india-with-expanding-digital-public-infrastructure/" } }] },
+      cards: [{ title: "Rajasthan: adaptive learning software works at school scale", summary: "A randomised trial of 80 government Adarsh schools (about 6,500 students) found gains of 0.22 SD in maths and 0.20 SD in Hindi after 18 months. In-school use was twice as cost-effective as the earlier after-school model.", tag: "India", source: { label: "J-PAL", href: "https://www.povertyactionlab.org/evaluation/scaling-personalized-adaptive-learning-pal-math-and-language-india" } }] },
     { id: "ai", name: "AI for Development", color: "#a33029", region: "global",
-      cards: [{ title: "World Bank WDR 2026: AI as a lifeline, with conditions", summary: "Released August 4, 2026. Generative AI puts 4.5% of jobs in developing economies at risk (14.2% in high-income countries). Over two-thirds of rural schools in Sub-Saharan Africa lack reliable internet, limiting uptake.", tag: "AI", source: { label: "DevelopmentAid", href: "https://www.developmentaid.org/news-stream/post/209410/ai-offers-lifeline-to-developing-economies-amid-weak-growth" } }] },
+      cards: [{ title: "India AI Impact Summit: 91 signatories, voluntary commitments", summary: "The declaration drew 91 countries and organisations, versus 60 at Paris. Thirteen AI firms pledged to publish adoption statistics and build multilingual evaluation benchmarks by the next summit. Commitments are voluntary; investment figures are expectations.", tag: "India", source: { label: "Organiser", href: "https://organiser.org/2026/04/05/347102/bharat/from-dialogue-to-deployment-strategic-outcomes-of-the-india-ai-summit/amp/" } }] },
     { id: "evaluation", name: "Evaluation Studies", color: "#2a5b8c", region: "global",
-      cards: [{ title: "Glocal Evaluation Week 2026 centres on trust in the age of AI", summary: "19,500 participants joined 322 sessions worldwide. The Global Evaluation Initiative also published a working paper on AI in evaluation covering evidence needs, workflow gains and capability building.", tag: "Evaluation", source: { label: "Glocal Evaluation Week", href: "https://glocalevalweek.org/node/64849" } }] },
+      cards: [{ title: "Paul Glewwe wins 2026 Yidan Prize for education research", summary: "Recognised for using randomised evaluations in low- and middle-income countries. J-PAL's September newsletter also lists new trials in Rajasthan, Zambia and Turkey, and counts over 1,100 affiliated researchers.", tag: "Global", source: { label: "J-PAL", href: "https://www.povertyactionlab.org/updates/september-2026-global-monthly-newsletter" } }] },
     { id: "trends", name: "Career Trends", color: "#985277", region: "global",
-      cards: [{ title: "M&E hiring data: what Devex tracked in 2025", summary: "Devex analysed 121 M&E job postings from January to September 2025; 48 hiring organisations shared salaries. Detailed pay breakdowns sit behind a paywall, so treat salary claims with care.", tag: "Career", source: { label: "Devex", href: "https://www.devex.com/news/what-you-can-expect-to-earn-in-m-e-111165" } }] },
+      cards: [{ title: "Building an evaluation career amid funding cuts", summary: "The Global Evaluation Initiative has a piece on building an evaluation career in uncertain times. Pair it with Devex's 2025 review of 121 M&E postings. Read both critically; salary detail is paywalled.", tag: "Career", source: { label: "Global Evaluation Initiative", href: "https://globalevaluationinitiative.org/node/44344" } }] },
     { id: "india", name: "India Focus", color: "#735c0f", region: "india",
-      cards: [{ title: "Could India build a public AI tutor for every child?", summary: "An August 2026 proposal uses a public-rail, private-engine model like UPI. India's test-prep market is $14.8 billion in FY26; 27% of students take private coaching. An idea, not an implemented programme.", tag: "India", source: { label: "The Hindu via Superkalam", href: "https://superkalam.com/current-affairs/24-08-2026/not-delulu-an-ai-tutor-for-every-child-in-india-pg8-f6b0a37f-9591-47d8-818f-70b1a7807b05" } },
-        { title: "ASER 2024: Grade 3 reading up, but far from the NIPUN target", summary: "23.4% of Grade 3 government-school children read a Grade 2 text (16.3% in 2022). Himachal leads at 49.7%; Telangana is 6.8%. UP rose from 16.4% to 27.9%.", tag: "India", source: { label: "iDream Education", href: "https://www.idreameducation.org/blog/nipun-bharat-deadline-fln-data/" } }] }
+      cards: [{ title: "AI in schools: only 63.5% have internet, and Class III rollout is 2026-27", summary: "UDISE+ 2024-25: 64.7% of schools have computers, about 58% of those working. ASER 2024: 23.4% of Class III government-school children read a Class II text. Analyst Arun Mehta urges phasing the rollout.", tag: "India", source: { label: "Education for All in India", href: "https://educationforallinindia.com/ai-in-indian-education-are-we-building-the-pyramid-upside-down/" } }] }
   ],
   education: [
     { title: "J-PAL: Evaluating Social Programs (101x)", format: "Course", cost: "FREE", note: "Self-paced, about 20 hours; enrol by Nov 30. Certificate is an optional $99.", href: "https://www.povertyactionlab.org/event/j-pal-101x-evaluating-social-programs-online" },
@@ -42,9 +42,9 @@
   ]
 };
 
-/* Brief stamp — the sticky note reads these. CI bumps them each week. */
+/* Brief stamp — the sticky note reads these. */
 Object.assign(window.HUB.meta, {
-  briefIssue: 44,
-  briefDate: "October 23, 2026",
-  updated: "2026-10-23"
+  briefIssue: 45,
+  briefDate: "October 30, 2026",
+  updated: "2026-10-30"
 });
